@@ -10,15 +10,15 @@ package fuzzy_octo_computing_machine;
  * @author mohssine.elarfaoui
  */
 public class Prime_Test {
-    private int num;
+    private double num;
     
-    public Prime_Test(int n){
+    public Prime_Test(double n){
         this.num=n;
     }
     
     public boolean Primo(){
         boolean tmp=true;
-        for(int i=num-1;i>1;i--){
+        for(double i=num-1;i>1;i--){
             if(num%i==0){
                 tmp=false;
             }
