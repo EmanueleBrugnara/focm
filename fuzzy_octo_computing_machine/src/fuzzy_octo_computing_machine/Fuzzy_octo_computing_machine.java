@@ -15,7 +15,6 @@ public class Fuzzy_octo_computing_machine {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
     }
     
 }
